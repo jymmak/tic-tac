@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import '../components/Board.css';
 
 class Board extends React.Component{
+    constructor(){
+        super();
+        this.state={
+            cells:[[],[],[]],
+            turn:'',
+            
+        }
+    }
   render() {
     return (
       <table className="board">
