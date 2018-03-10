@@ -15,6 +15,7 @@ class App extends Component {
           <h2>Start {'\u2728'}</h2>
         </header>
        <Board/>
+       <Result/>
         
 
 
